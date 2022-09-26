@@ -1,0 +1,19 @@
+20220831
+
+otool -l ./OneQPlus | grep -A4 LC_ENCRYPTION_INFO
+git clone https://github.com/AloneMonkey/frida-ios-dump.git
+pip install -r requirements.txt --upgrade
+
+itunnel_mux.exe --iport 22 --lport 2222
+만약 덤프가 안떠진다면 iport를 44로 해보면 된다.
+
+
+conda activate py39_15.2.2
+
+pip install -r ./requirements.txt
+
+python dump.py com.iwilab.KakaoTalk
+
+// windows 해시
+
+certutil -hashfile Example.txt
